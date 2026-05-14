@@ -1,4 +1,4 @@
-# Mnemosyne — Claude Instructions
+# Engram — Claude Instructions
 
 This is a personal knowledge base maintained by Claude Code using the LLM Wiki pattern.
 Focus areas: AI/LLM research, bookmarks, tools, and techniques.
@@ -40,6 +40,17 @@ When processing a bookmark HTML export:
 ### Synthesis (`wiki/synthesis/`)
 - Only write these when asked
 - Cross-concept essays: "how X and Y relate", "state of X as of date"
+
+### Seeding from external repos
+To seed the wiki from a public GitHub repo:
+1. Fetch the repo's content via `https://raw.githubusercontent.com/<owner>/<repo>/main/<path>`
+2. Filter to AI/LLM topics only
+3. Map each item: techniques/papers → concept, frameworks/services → tool, articles/surveys → source
+4. Deduplicate against existing wiki notes before writing
+5. Write notes using templates in `_templates/`
+6. Update `index.md` log
+
+Repos used as seeds: Hannibal046/Awesome-LLM, NicholasSpisak/second-brain (2026-05-14)
 
 ## Style
 - Write in second person ("you") when explaining concepts to the reader
