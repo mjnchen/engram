@@ -9,7 +9,7 @@ source: https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/
 
 ## Summary
 
-Prompt engineering is the practice of designing input text to elicit desired behavior from a language model without changing its weights. You control model outputs through instruction phrasing, few-shot examples, output format specification, and persona assignment. It is the primary interface between users and LLMs in deployed applications.
+Prompt engineering is the practice of designing input text to elicit desired behavior from a language model without changing its weights. You control model outputs through instruction phrasing, few-shot examples, output format specification, and persona assignment. You interact with deployed LLMs almost entirely through this interface.
 
 ## Key Ideas
 

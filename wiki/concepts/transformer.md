@@ -9,7 +9,7 @@ source: https://arxiv.org/pdf/1706.03762.pdf
 
 ## Summary
 
-The Transformer is a neural network architecture that replaced recurrence and convolutions with self-attention to model sequential data. You can think of it as a mechanism that lets every token in a sequence directly attend to every other token, capturing long-range dependencies without processing words one-by-one. It became the foundation for virtually all modern large language models.
+The Transformer is a neural network architecture that replaced recurrence and convolutions with self-attention to model sequential data. You can think of it as a mechanism that lets every token in a sequence directly attend to every other token, capturing long-range dependencies without processing words one-by-one. You will find it at the foundation of virtually all modern large language models.
 
 ## Key Ideas
 

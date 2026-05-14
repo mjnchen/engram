@@ -9,7 +9,7 @@ source: https://github.com/LuckyyySTA/Awesome-LLM-hallucination
 
 ## Summary
 
-Hallucination refers to LLM outputs that are fluent and confident but factually wrong, fabricated, or inconsistent with the provided context. You encounter two main types: intrinsic hallucination (contradicts source material) and extrinsic hallucination (adds information not in the source). It is one of the primary barriers to deploying LLMs in high-stakes domains.
+Hallucination refers to LLM outputs that are fluent and confident but factually wrong, fabricated, or inconsistent with the provided context. You encounter two main types: intrinsic hallucination (contradicts source material) and extrinsic hallucination (adds information not in the source). You will find it is one of the primary barriers you face when deploying LLMs in high-stakes domains.
 
 ## Key Ideas
 

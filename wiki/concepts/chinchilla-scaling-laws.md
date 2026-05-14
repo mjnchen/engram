@@ -9,7 +9,7 @@ source: https://arxiv.org/pdf/2203.15556
 
 ## Summary
 
-The Chinchilla paper (Hoffmann et al., DeepMind 2022) revised earlier [[scaling-laws]] to show that for a fixed compute budget, the optimal strategy is to train a smaller model on proportionally more data than previously thought. The rule of thumb: train on roughly 20 tokens per parameter. Chinchilla (70B parameters, 1.4T tokens) outperformed Gopher (280B, 300B tokens) at the same compute cost.
+When you apply Chinchilla scaling laws (Hoffmann et al., DeepMind 2022), you revise earlier [[scaling-laws]] to see that for a fixed compute budget, the optimal strategy is to train a smaller model on proportionally more data than previously thought. You use the rule of thumb: train on roughly 20 tokens per parameter. By following this ratio, you get a 70B-parameter model trained on 1.4T tokens that outperforms a 280B-parameter model trained on only 300B tokens at the same compute cost.
 
 ## Key Ideas
 

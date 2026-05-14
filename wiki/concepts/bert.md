@@ -9,7 +9,7 @@ source: https://aclanthology.org/N19-1423.pdf
 
 ## Summary
 
-BERT (Bidirectional Encoder Representations from Transformers) is a pretrained Transformer encoder that uses masked language modeling and next-sentence prediction to learn bidirectional context. You fine-tune it on downstream classification, QA, and NER tasks by adding a task head on top of the pretrained representations. It established the pretraining + fine-tuning paradigm that dominated NLP before instruction-tuned generative models.
+BERT (Bidirectional Encoder Representations from Transformers) is a pretrained Transformer encoder that uses masked language modeling and next-sentence prediction to learn bidirectional context. You fine-tune it on downstream classification, QA, and NER tasks by adding a task head on top of the pretrained representations. You can credit it with establishing the pretraining + fine-tuning paradigm that dominated NLP before instruction-tuned generative models.
 
 ## Key Ideas
 

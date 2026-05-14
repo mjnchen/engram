@@ -9,7 +9,7 @@ source: https://arxiv.org/pdf/2210.11416.pdf
 
 ## Summary
 
-Instruction tuning fine-tunes a pretrained language model on a large collection of tasks formatted as natural language instructions with expected outputs. You use it to make a model that was trained to predict next tokens behave as an instruction-following assistant. It dramatically improves zero-shot generalization to unseen tasks without requiring task-specific prompting.
+Instruction tuning fine-tunes a pretrained language model on a large collection of tasks formatted as natural language instructions with expected outputs. You use it to make a model that was trained to predict next tokens behave as an instruction-following assistant. You get dramatically improved zero-shot generalization to unseen tasks without requiring task-specific prompting.
 
 ## Key Ideas
 

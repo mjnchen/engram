@@ -9,7 +9,7 @@ source: https://arxiv.org/pdf/1910.02054.pdf
 
 ## Summary
 
-ZeRO is a memory optimization strategy for training large models across multiple GPUs that eliminates redundant copies of optimizer states, gradients, and model parameters. You use it to train models too large to fit on a single GPU by partitioning these tensors across all devices instead of replicating them. It achieves near-linear memory reduction with the number of devices while maintaining computational efficiency.
+ZeRO is a memory optimization strategy for training large models across multiple GPUs that eliminates redundant copies of optimizer states, gradients, and model parameters. You use it to train models too large to fit on a single GPU by partitioning these tensors across all devices instead of replicating them. You achieve near-linear memory reduction with the number of devices while maintaining computational efficiency.
 
 ## Key Ideas
 

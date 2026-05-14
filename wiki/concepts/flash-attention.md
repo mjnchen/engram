@@ -9,7 +9,7 @@ source: https://arxiv.org/pdf/2205.01068.pdf
 
 ## Summary
 
-Flash Attention is a GPU-efficient implementation of exact attention that reduces memory usage from O(N²) to O(N) by tiling the attention computation to stay within fast on-chip SRAM rather than reading/writing to slow HBM. You get the same mathematical result as standard attention but dramatically faster wall-clock time and lower peak memory. It is now the de facto attention implementation in most LLM training and inference frameworks.
+Flash Attention is a GPU-efficient implementation of exact attention that reduces memory usage from O(N²) to O(N) by tiling the attention computation to stay within fast on-chip SRAM rather than reading/writing to slow HBM. You get the same mathematical result as standard attention but dramatically faster wall-clock time and lower peak memory. You will find it as the de facto attention implementation in most LLM training and inference frameworks.
 
 ## Key Ideas
 

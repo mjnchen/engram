@@ -9,7 +9,7 @@ source: https://arxiv.org/pdf/2305.10601.pdf
 
 ## Summary
 
-Tree of Thoughts (ToT) extends chain-of-thought prompting by framing problem-solving as a search over a tree of intermediate reasoning steps. You use it for tasks where backtracking or exploring multiple solution paths is beneficial — the model generates candidate thoughts, evaluates them, and uses search algorithms (BFS, DFS, beam search) to find the best path to an answer. It substantially outperforms linear CoT on planning and creative writing tasks.
+Tree of Thoughts (ToT) extends chain-of-thought prompting by framing problem-solving as a search over a tree of intermediate reasoning steps. You use it for tasks where backtracking or exploring multiple solution paths is beneficial — the model generates candidate thoughts, evaluates them, and uses search algorithms (BFS, DFS, beam search) to find the best path to an answer. You get substantially better results than linear CoT on planning and creative writing tasks.
 
 ## Key Ideas
 

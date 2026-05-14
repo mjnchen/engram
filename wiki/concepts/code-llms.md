@@ -9,7 +9,7 @@ source: https://github.com/huybery/Awesome-Code-LLM
 
 ## Summary
 
-Code LLMs are language models pretrained or fine-tuned specifically on source code, enabling code generation, completion, bug fixing, and translation across programming languages. You use them to automate software engineering tasks that require understanding syntax, semantics, and the conventions of programming languages. They are trained on GitHub repositories, competitive programming sites, and documentation.
+Code LLMs are language models pretrained or fine-tuned specifically on source code, enabling code generation, completion, bug fixing, and translation across programming languages. You use them to automate software engineering tasks that require understanding syntax, semantics, and the conventions of programming languages. You find them pretrained on GitHub repositories, competitive programming sites, and documentation.
 
 ## Key Ideas
 

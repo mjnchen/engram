@@ -9,7 +9,7 @@ source: https://arxiv.org/pdf/2312.00752
 
 ## Summary
 
-Mamba is a sequence model based on structured state space models (SSMs) that achieves linear-time inference and training with respect to sequence length. You can think of it as a recurrent model that selectively filters what information to retain in its hidden state based on the input, unlike fixed-coefficient linear recurrences. It matches or exceeds Transformer quality on language tasks while being significantly faster on long sequences.
+Mamba is a sequence model based on structured state space models (SSMs) that achieves linear-time inference and training with respect to sequence length. You can think of it as a recurrent model that selectively filters what information to retain in its hidden state based on the input, unlike fixed-coefficient linear recurrences. You get Transformer-quality results on language tasks while gaining significantly faster inference on long sequences.
 
 ## Key Ideas
 

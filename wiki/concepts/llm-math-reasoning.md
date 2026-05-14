@@ -9,7 +9,7 @@ source: https://github.com/atfortes/LM-Reasoning-Papers
 
 ## Summary
 
-Mathematical reasoning in LLMs covers the methods and benchmarks for making language models reliably solve math problems — from grade-school arithmetic to competition-level proofs. You use specialized training data, prompting techniques, and tool augmentation to overcome the fragility of pure token prediction on formal numerical tasks. It is a leading indicator of general reasoning capability.
+Mathematical reasoning in LLMs covers the methods and benchmarks for making language models reliably solve math problems — from grade-school arithmetic to competition-level proofs. You use specialized training data, prompting techniques, and tool augmentation to overcome the fragility of pure token prediction on formal numerical tasks. You can treat it as a leading indicator of a model's general reasoning capability.
 
 ## Key Ideas
 
