@@ -15,7 +15,7 @@ Speculative decoding accelerates autoregressive LLM inference by using a small d
 
 - Draft model (small, fast) generates a candidate sequence of K tokens autoregressively
 - Target model (large, expensive) evaluates all K tokens in a single parallel forward pass
-- Acceptance criterion: tokens whose probability ratio between target and draft exceeds a threshold are accepted; the first rejected token is resampled
+- Acceptance criterion: each token is accepted with probability min(1, p_target(x) / p_draft(x)); rejected tokens are resampled from a corrected distribution, guaranteeing output identical to sampling from the target model alone
 - Works best when draft and target models share vocabulary and the draft is well-aligned with the target distribution
 - Self-speculative decoding: use early layers or a pruned version of the same model as the draft, avoiding a separate model
 - Medusa and EAGLE extend the approach with multiple parallel draft heads attached to the target model

@@ -2,7 +2,7 @@
 title: Retrieval-Augmented Generation (RAG)
 tags: [llm, inference, knowledge]
 created: 2026-05-14
-source: https://lilianweng.github.io/posts/2023-06-23-agent/
+source: https://arxiv.org/abs/2005.11401
 ---
 
 # Retrieval-Augmented Generation (RAG)
