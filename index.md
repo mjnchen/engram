@@ -18,3 +18,4 @@ Maintained with Claude Code using the LLM Wiki pattern.
 
 <!-- Claude appends a one-line entry here after each processing run -->
 - 2026-05-14: seeded 140 notes from Hannibal046/Awesome-LLM + NicholasSpisak/second-brain (31 concepts, 72 tools, 37 sources)
+- 2026-05-15: added 8 notes from bookmarks cross-post (1 concept, 3 tools, 4 sources) — agent eval, HuggingFace Transformers, PyTorch, Prophet, fast.ai, CS224n, awesome-ml, time-series anomaly detection
